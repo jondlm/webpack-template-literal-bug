@@ -1,0 +1,16 @@
+{
+  "name": "webpack-bug",
+  "version": "1.0.0",
+  "description": "repro of a bug with webpack and tagged template literals",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack && cd build && open index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "4.26.0",
+    "webpack-cli": "3.2.3"
+  }
+}
